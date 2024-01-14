@@ -187,7 +187,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 13,
         "qus": "What is coercion ?",
         "ans": [
             {
@@ -201,7 +201,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 14,
         "qus": "Types of Logical Operators ?",
         "ans": [
             {
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 15,
         "qus": "Difference between == and === ?",
         "ans": [
             {
@@ -233,5 +233,243 @@
                 "data" : "- 42 === '42' // false : compares the value and data type (Strict Equality Operator)"
             }
         ]
+    },
+    {
+        "id": 16,
+        "qus": "What is Operator and Operand ?",
+        "ans": [
+            {
+                "dataType" : "code",
+                "data" : "\n if( a && b) { \n write your code here.. \n }"
+            },
+            {
+                "dataType" : "list",
+                "data" : [
+                    "&&   - Operator",
+                    "a,b  - Operand"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "qus": "What is Template Literal ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- Template Literal Uses Backtick `` "
+            },
+            {
+                "dataType" : "code",
+                "data" : "\n Example :\n console.log( `addition of ${a} and ${b} is ${result} `) \n addition of 5 + 5 is 10}"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "qus": "What is Nullish Coalescing Operator ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- The nullish coalescing (??) operator is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand. "
+            },
+            {
+                "dataType" : "code",
+                "data" : "\n const foo = null ?? 'default string'; \n console.log(foo); // Expected output: default string \n\n const baz = 0 ?? 42; \n console.log(baz); // Expected output: 0"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "qus": "What is Closure in Javascript ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- Closure allows inner functions to access the outer scope of a function"
+            },
+            {
+                "dataType" : "code",
+                "data" : "\n function outer () { \n var a = 10; \n function inner() { \n var b = 20; \n console.log(a + b) \n } \n return inner; \n } \n\n let result =  outer(); \n console.log(result)  //30"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "qus": "What are the array methods in Javascript ?",
+        "ans": [
+           {
+            "dataType":"list",
+            "data":[
+                "Array length - Returns array length value // array.length",
+                "Array toString() - Converts an array to a string of (comma separated) array values. //array.toString();",
+                "Array at() - Returns at position of array values. // array.at(2) || array[2]",
+                "Array join() - This method also joins all array elements into a string. // array.join(',');",
+                "Array pop() - This method removes the last element from an array. // array.pop();",
+                "Array push() - This method adds a new element to an array (at the end). // array.push('text');",
+                "Array shift() - This method removes the first array element and \"shifts\" all other elements to a lower index. // array.shift();",
+                "Array unshift() - This method adds a new element to an array (at the beginning), and \"unshifts\" older elements. // array.unshift('text');",
+                "Array delete() - Using delete() leaves undefined holes in the array. // delete array[2];",
+                "Array concat() - This method creates a new array by merging (concatenating) existing arrays. // array1.concat(array2);",
+                "Array copyWithin() - This method copies array elements to another position in an array. // array1.copyWithin(2, 0);",
+                "Array splice() - This method can be used to add new items to an array. // array1.splice(2, 0, \"new item\", \"new item\");",
+                "Array slice() - This method slices out a piece of an array into a new array. // array1.slice(2);"
+            ]
+           }
+        ]
+    },
+    {
+        "id": 21,
+        "qus": "What is Object.create() ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- The Object.create() static method creates a new object, using an existing object as the prototype of the newly created object."
+            },
+            {
+                "dataType":"code",
+                "data":"\n Example \n const person = { \n isHuman: false, \n printIntroduction: function () { \n console.log(`My name is ${this.name}. Am I human? ${this.isHuman}`); \n }, \n }; \n\n const me = Object.create(person); \n me.name = 'Matthew'; // \"name\" is a property set on \"me\", but not on \"person\" \nme.isHuman = true; // Inherited properties can be overwritten \n me.printIntroduction(); // Expected output: \"My name is Matthew. Am I human? true\""
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "qus": "What is dot operator(.) used for ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- dot operator used to access the properties inside of an object."
+            },
+            {
+                "dataType":"code",
+                "data":"\n Example \n let person = { \n firstName : \"john\", \n lastName  : \"doe\", \n age:25 \n } \n console.log(person.firstName) // access the object value using dot operator"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "qus": "What is array notation ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- Array notation is the method to access the properties using square bracket."
+            },
+            {
+                "dataType":"code",
+                "data":"\n Example \n let person = { \n firstName : \"john\", \n lastName  : \"doe\", \n age:25 \n } \n console.log(person['firstName']) // access the object value using dot operator"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "qus": "What is in operator (in) used for ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- The in operator returns true if the specified property is in the specified object or its prototype chain."
+            },
+            {
+                "dataType":"code",
+                "data":"\n Example \n let person = { \n firstName : \"john\", \n lastName  : \"doe\", \n age:25 \n } \n console.log('firstName' in person) // true"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "qus": "How to delete a property from an Object ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- The \"delete\" keyword used to delete object property."
+            },
+            {
+                "dataType":"code",
+                "data":"\n Example \n let person = { \n firstName : \"john\", \n lastName  : \"doe\", \n age:25 \n } \n console.log(delete person.age) // delete the age property from object"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "qus": "What is this keyword in Javascript ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- The \"this\" keyword refers to an object."
+            },
+            {
+                "dataType":"code",
+                "data":"\n Example \n function createObject(name) { \n return { \n name, \n greet : function() { \n console.log( ` ${ this.name } says hello ` ) \n } \n } \n } \n\n const character = createObject('john'); \n character.greet()"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "qus": "What is new keyword in Javascript ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- The \"new \" keyword used to create an instance of object or array."
+            },
+            {
+                "dataType":"code",
+                "data":"\n Example \n const person = new Object(); \n  const arr    = new Array();"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "qus": "What is prototype ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- prototypes are kind of object inheritance. Note: This willbe no longer available it's going to Deprecated."
+            },
+            {
+                "dataType":"code",
+                "data":"\n Example \n let person = { \n firstName : \"john\", \n lastName  : \"doe\", \n age:25 \n\n let scores = { \n cricket : 100, \n football  : 5, \n _proto_:person \n } \n\n console.log(scores.cricket)  // 100 }"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "qus": "What is oauth ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- oauth means open authentication. This is a method to login to a portal using another login credentials."
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "qus": "Is Javascript single threaded or multi threaded ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- Javascript is a single threaded. As it has single call stack."
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "qus": "How Javascript working ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- Browser API's are Asynchronus."
+            },
+            {
+                "dataType":"paragraph",
+                "data":"- They are added in the queue."
+            },
+            {
+                "dataType":"paragraph",
+                "data":"- Then It goes to call stack."
+            },
+            {
+                "dataType":"paragraph",
+                "data":"- Queue to call stack moving is called as execution."
+            }
+        ]
     }
+
 ]
