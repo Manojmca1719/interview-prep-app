@@ -3,9 +3,6 @@
     <div class="question-answer p-3">
         <div class="question" [attr.id]="'question-'+item.id">{{item.id}}. {{item.qus}}</div>
         <div class="answer">
-            <div class="answer-note">
-                <u><i>Ans :</i></u>
-            </div>
             @for (ans of item.ans; track $index) {
             @if(ans.dataType == 'paragraph') {
             <div class="ans">
