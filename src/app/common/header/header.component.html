@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary px-3">
+    <a class="navbar-brand" href="#">
+        <img src="./assets/images/VM.svg" alt="" width="50" height="30">
+    </a>
+    <div class="btn d-block ms-auto" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button"
+        aria-controls="offcanvasMenu">
+        <i-feather name="menu" class="text-white"></i-feather>
+    </div>
+</nav>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+    <div class="offcanvas-header bg-light">
+        <h5 class="offcanvas-title" id="offcanvasMenuLabel">Topics</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body p-0">
+        <ul class="list-unstyled menu-list">
+            @for (item of menuListData; track $index) {
+            <li class="border-bottom menu-item px-3 py-2" [routerLink]="item.routerLink" routerLinkActive="'is-active'">
+                {{item.title}}
+            </li>
+            }
+        </ul>
+    </div>
+</div>

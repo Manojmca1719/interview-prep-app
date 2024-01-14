@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.question-contented-area{
+    .question{
+        font-size: 18px;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .answer{
+        .answer-note{
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}

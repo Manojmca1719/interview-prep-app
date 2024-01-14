@@ -1,0 +1,237 @@
+[
+    {
+        "id": 1,
+        "qus": "What is javaScript ?",
+        "ans": [
+            {
+                "dataType": "paragraph",
+                "data": "- JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "qus": "What is W3C  ?",
+        "ans": [
+            {
+                "dataType": "list",
+                "data": [
+                    "W3C stands for WWW Consortium.",
+                    "They are providing the protocols for the web standards - Founder : Tim Berners-Lee"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "qus": "What is DOM  ?",
+        "ans": [
+            {
+                "dataType": "paragraph",
+                "data": "- DOM stands for Document Object Model"
+            },
+            {
+                "dataType": "paragraph",
+                "data": "- It is a programming interface use to manipulate elements, styles, events and etc.,"
+            },
+            {
+                "dataType": "list",
+                "data": [
+                    "Document - File.",
+                    "Object - Tags and Elements.",
+                    "Model – Structure."
+                ]
+            }
+        ]
+    },
+    
+    {
+        "id": 4,
+        "qus": "Types of DOM ?",
+        "ans": [
+            {
+                "dataType": "list",
+                "data": [
+                    "Core DOM",
+                    "XML DOM",
+                    "HTML DOM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "qus": "Explain about HTML DOM ?",
+        "ans": [
+            {
+                "dataType": "paragraph",
+                "data": "- HTML DOM converts html elements, properties and their methods into object."
+            },
+            {
+                "dataType": "paragraph",
+                "data": "- It used to add, get, change or delete the HTML elements."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "qus": "What are the Scopes are available in Javascript ?",
+        "ans": [
+            {
+                "dataType": "list",
+                "data": [
+                    "Global Scope",
+                    "Function Scope",
+                    "Block Scope"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "qus": "What is hoisting ?",
+        "ans": [
+            {
+                "dataType" : "paragraph",
+                "data" : "- Hoisting is the default behavior of moving all the declarations at the top of the scope before code execution."
+            },
+            {
+                "dataType" : "paragraph",
+                "data" : "- JavaScript only hoists declarations, not initializations."
+            },
+            {
+                "dataType": "code",
+                "data": "\nfunction codeHoist() { \n a = 10; \n let b = 50; \n } \n codeHoist();\n console.log(a); // 10 \n console.log(b); // ReferenceError : b is not defined"       
+            }
+        ]
+    },
+
+    {
+        "id": 8,
+        "qus": "What is factory function ?",
+        "ans": [
+            {
+                "dataType" : "paragraph",
+                "data" : "- A factory function can be defined as a function that creates an object and returns it.\n function name will be in camelCase."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "qus": "What is constructor ?",
+        "ans": [
+            {
+                "dataType" : "paragraph",
+                "data" : "- Constructor enables to provide custom initialization that must be done before any other methods can be called on an instantiated object ."
+            },
+            {
+                "dataType" : "paragraph",
+                "data" : "- Constructor function name should be in Pascal Case ."
+            },
+            {
+                "dataType" : "paragraph",
+                "data" : "- this keyword can be used inside of the constructor function."
+            },
+            {
+                "dataType" : "paragraph",
+                "data" : "- It will automatically return the result, no need to write return keyword."
+            },
+            {
+                "dataType" : "code",
+                "data" : "\nSyntax : \n function Person() { // Pascal Case \n this.name = 'vijay',// this refers to create \n this.age  = 29 \n } \n\n var person   = new Person();  // new keyword refers to create new object \n console.log(person.age);"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "qus": "Types of constructor ?",
+        "ans": [
+            {
+                "dataType" : "list",
+                "data" : [
+                    "Built-in Constructor",
+                    "Custom Constructor"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "qus": "What are the Primitive data types ?",
+        "ans": [
+            {
+                "dataType" : "list",
+                "data" : [
+                    "String",
+                    "Number",
+                    "Boolean",
+                    "Symbol",
+                    "Null",
+                    "Undefined"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "qus": "What are the Non - Primitive (Reference Type) data types ?",
+        "ans": [
+            {
+                "dataType" : "list",
+                "data" : [
+                    "Object",
+                    "Array",
+                    "Function"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "qus": "What is coercion ?",
+        "ans": [
+            {
+                "dataType" : "paragraph",
+                "data" : "- Coercion refers to the process of automatic or implicit conversion of values from one data type to another."
+            },
+            {
+                "dataType" : "code",
+                "data" : "\nExample : \n 10 + ''   = 10  \n 10 - '5'  = 5"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "qus": "Types of Logical Operators ?",
+        "ans": [
+            {
+                "dataType" : "list",
+                "data" : [
+                    "&& -Logical AND",
+                    "|| - Logical OR",
+                    "< - Less Then",
+                    "> - Greater Then",
+                    "<= - Less Then or Equal To",
+                    ">= - Greater Then or Equal To",
+                    "== - Value Comparison Equal To",
+                    "=== - Value and Type Comparison Equal To",
+                    "!= - Not Equal To"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "qus": "Difference between == and === ?",
+        "ans": [
+            {
+                "dataType" : "paragraph",
+                "data" : "- 42 == '42' // true : compares the value (Equality Operator)"
+            },
+            {
+                "dataType" : "paragraph",
+                "data" : "- 42 === '42' // false : compares the value and data type (Strict Equality Operator)"
+            }
+        ]
+    }
+]

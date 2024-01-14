@@ -1,0 +1,36 @@
+<div class="question-contented-area">
+    @for (item of dataQusAns; track $index) {
+    <div class="question-answer p-3">
+        <div class="question" [attr.id]="'question-'+item.id">{{item.id}}. {{item.qus}}</div>
+        <div class="answer">
+            <div class="answer-note">
+                <u><i>Ans :</i></u>
+            </div>
+            @for (ans of item.ans; track $index) {
+            @if(ans.dataType == 'paragraph') {
+            <div class="ans">
+                {{ans.data}}
+            </div>
+            }
+            @if(ans.dataType == 'list') {
+            <ul class="mb-0">
+                @for(li of ans.data;track $index) {
+                <li>{{li}}</li>
+                }
+            </ul>
+            }
+            @if(ans.dataType == 'code') {
+            <code>
+                <pre>
+                    {{ans.data}}
+                </pre>
+            </code>
+            }
+            }
+        </div>
+    </div>
+    @if(item.length != item.id){
+      <hr class="m-0">
+    }
+    }
+</div>
