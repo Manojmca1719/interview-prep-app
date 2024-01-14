@@ -470,6 +470,16 @@
                 "data":"- Queue to call stack moving is called as execution."
             }
         ]
+    },
+    {
+        "id": 32,
+        "qus": "Is Javascript Static Language or Dynamic Language ?",
+        "ans": [
+            {
+                "dataType":"paragraph",
+                "data":"- Javascript is a dynamic language as we can change the values and types."
+            }
+        ]
     }
 
 ]
