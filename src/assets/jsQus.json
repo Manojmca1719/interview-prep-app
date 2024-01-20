@@ -495,7 +495,7 @@
             },
             {
                 "dataType": "code",
-                "data": "\n int a = 1; \n int b = ++a; \n console.log(b); // prints 2"
+                "data": "\n let a = 1; \n let b = ++a; \n console.log(b); // prints 2"
             },
             {
                 "dataType": "paragraph",
@@ -509,7 +509,7 @@
             },
             {
                 "dataType": "code",
-                "data": "\n int a = 1; \n int b = a++; \n console.log(b);  // prints 1"
+                "data": "\n let a = 1; \n let b = a++; \n console.log(b);  // prints 1"
             }
         ]
     },
