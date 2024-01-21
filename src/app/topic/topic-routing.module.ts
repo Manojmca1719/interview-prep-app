@@ -4,8 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'javascript',
+    redirectTo: '',
     pathMatch: 'full'
+  },
+  {
+    path: '',
+    loadComponent: () => import('./home/home.component').then(c => c.HomeComponent)
   },
   {
     path: 'javascript',

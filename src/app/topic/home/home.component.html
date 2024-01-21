@@ -1,0 +1,24 @@
+<div class="p-3">
+    <main class="main-area">
+
+        <div class="centered">
+
+            <section class="cards">
+                @for (item of menuListData; track $index) {
+                <article class="card" [routerLink]="item.routerLink">
+                    <a>
+                        <picture class="thumbnail">
+                            <img class="border-bottom" [src]="item.image" [alt]="item.title">
+                        </picture>
+                        <div class="card-content">
+                            <h2>{{item.title}}</h2>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+                }
+            </section><!-- .cards -->
+
+        </div><!-- .centered -->
+
+    </main>
+</div>

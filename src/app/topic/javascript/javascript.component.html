@@ -1,4 +1,5 @@
 <div class="question-contented-area">
+    <!-- <div class="secrat-box" (click)="getQusModal()"></div> -->
     @for (item of dataQusAns; track $index) {
     <div class="question-answer p-3">
         <div class="question" [attr.id]="'question-'+item.id">{{item.id}}. {{item.qus}}</div>
@@ -31,3 +32,4 @@
     }
     }
 </div>
+

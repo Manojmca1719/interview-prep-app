@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { CommonService } from '../../common/common.service';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -8,18 +8,18 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [HttpClientModule],
   templateUrl: './javascript.component.html',
   styleUrl: './javascript.component.scss',
-  providers:[CommonService]
+  providers: [CommonService]
 })
 export class JavascriptComponent {
+
   public dataQusAns: Array<any> = [];
   constructor(private commonService: CommonService) {
     this.getQusAnsJsonData();
   }
 
-  public getQusAnsJsonData(){
-    this.commonService.getData('./assets/jsQus.json').subscribe((data:any)=>{
+  public getQusAnsJsonData() {
+    this.commonService.getData('./assets/jsQus.json').subscribe((data: any) => {
       this.dataQusAns = data;
-      console.log(this.dataQusAns);
     })
   }
 }

@@ -1,6 +1,7 @@
 [
     {
         "title":"JavaScript",
-        "routerLink":"/topic/javascript"
+        "routerLink":"/home/javascript",
+        "image":"https://repository-images.githubusercontent.com/657736250/efe020c3-cfc2-41f9-be41-ad581ffc9969"
     }
 ]

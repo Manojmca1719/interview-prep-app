@@ -3,11 +3,11 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
     {
         path: '',
-        redirectTo: 'topic',
+        redirectTo: 'home',
         pathMatch: 'full'
     },
     {
-        path: 'topic',
+        path: 'home',
         loadChildren: () => import('./topic/topic.module').then(m => m.TopicModule),
     }
 ];
