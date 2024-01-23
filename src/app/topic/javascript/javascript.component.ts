@@ -16,6 +16,7 @@ export class JavascriptComponent {
   @ViewChild(QusComponent) QusComponent!: QusComponent;
 
   public dataQusAns: Array<any> = [];
+  public qusAloneData:Array<any> = [];
   constructor(private commonService: CommonService) {
     this.getQusAnsJsonData();
   }
@@ -24,12 +25,13 @@ export class JavascriptComponent {
     this.commonService.getData('./assets/jsQus.json').subscribe((data: any) => {
       this.dataQusAns = data;
       this.dataQusAns.forEach((data:any)=>{
+        this.qusAloneData.push(data.qus)
         data["visibility"] = "ans" in data;
       })
     })
   }
 
   public getQusModal(){
-    this.QusComponent.openQusModal('Javascript', this.dataQusAns);
+    this.QusComponent.openQusModal('Javascript', this.qusAloneData);
   }
 }

@@ -19,7 +19,7 @@ export class QusComponent {
   constructor() { }
   public openQusModal(subject: any, qus: any) {
     this.subjectTitle = subject;
-    this.qusData = qus;
+    this.qusData = qus;    
     this.QusModal.nativeElement.classList.add('show');
   }
 

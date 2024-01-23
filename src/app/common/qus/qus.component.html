@@ -9,13 +9,10 @@
         <button type="button" class="btn-close text-reset" (click)="closeQusModal()"></button>
     </div>
     <div class="offcanvas-body p-0">
-        @for(qus of qusData;track qus.id){
+        @for(qus of qusData;track $index){
         <div class="border-bottom p-2">
-            <span>{{qus.id}}.&nbsp;</span><span>{{qus.qus}}</span>
+            <span>{{$index+1}}.&nbsp;</span><span>{{qus}}</span>
         </div>
         }
-        <div>
-            
-        </div>
     </div>
 </div>
