@@ -1,6 +1,7 @@
 <div class="question-contented-area">
-    <!-- <div class="secrat-box" (click)="getQusModal()"></div> -->
+    <div class="secrat-box" (click)="getQusModal()"></div>
     @for (item of dataQusAns; track $index) {
+    @if(item.visibility){
     <div class="question-answer p-3">
         <div class="question" [attr.id]="'question-'+item.id">{{item.id}}. {{item.qus}}</div>
         <div class="answer">
@@ -27,9 +28,10 @@
             }
         </div>
     </div>
-    @if(item.length != item.id){
-      <hr class="m-0">
+    }
+    @if(item.length != item.id && item.visibility){
+    <hr class="m-0">
     }
     }
 </div>
-
+<app-qus></app-qus>

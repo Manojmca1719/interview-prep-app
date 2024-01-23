@@ -527,5 +527,69 @@
             }
 
         ]
+    },
+    {
+        "id": 35,
+        "qus": "What is Class ?"
+    },
+    {
+        "id": 36,
+        "qus": "Differences of var let and Const ?"
+    },
+    {
+        "id": 37,
+        "qus": "What is abstraction ?"
+    },
+    {
+        "id": 38,
+        "qus": "What is try catch ?"
+    },
+    {
+        "id": 39,
+        "qus": "What is anonymous Function ?"
+    },
+    {
+        "id": 40,
+        "qus": "What is factory function ?"
+    },
+    {
+        "id": 41,
+        "qus": "What is constructor ?"
+    },
+    {
+        "id": 42,
+        "qus": "What is Object.assign({}) ?"
+    },
+    {
+        "id": 43,
+        "qus": "What is dot(.) notation ?"
+    },
+    {
+        "id": 44,
+        "qus": "What is bracket() notation ?"
+    },
+    {
+        "id": 45,
+        "qus": "What is array notation ?"
+    },
+    {
+        "id": 46,
+        "qus": "What is in operator (in) used for ?"
+    },
+    {
+        "id": 47,
+        "qus": "What is prototype  ?"
+    },
+    {
+        "id": 48,
+        "qus": "Difference between function and class ?"
+    },
+    {
+        "id": 49,
+        "qus": "What is sub-sequence ?"
+    },
+    {
+        "id": 50,
+        "qus": "What is event loop ?"
     }
 ]

@@ -1,0 +1,21 @@
+<!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+    aria-controls="offcanvasExample">
+    Button with data-bs-target
+</button> -->
+
+<div class="offcanvas offcanvas-end" #QusModal tabindex="-1" id="QusModal" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header bg-light">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">{{subjectTitle}} Questions</h5>
+        <button type="button" class="btn-close text-reset" (click)="closeQusModal()"></button>
+    </div>
+    <div class="offcanvas-body p-0">
+        @for(qus of qusData;track qus.id){
+        <div class="border-bottom p-2">
+            <span>{{qus.id}}.&nbsp;</span><span>{{qus.qus}}</span>
+        </div>
+        }
+        <div>
+            
+        </div>
+    </div>
+</div>
