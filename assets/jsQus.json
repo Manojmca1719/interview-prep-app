@@ -5,7 +5,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data."
+                "data": " JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data."
             }
         ]
     },
@@ -28,11 +28,11 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- DOM stands for Document Object Model"
+                "data": " DOM stands for Document Object Model"
             },
             {
                 "dataType": "paragraph",
-                "data": "- It is a programming interface use to manipulate elements, styles, events and etc.,"
+                "data": " It is a programming interface use to manipulate elements, styles, events and etc.,"
             },
             {
                 "dataType": "list",
@@ -64,11 +64,11 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- HTML DOM converts html elements, properties and their methods into object."
+                "data": " HTML DOM converts html elements, properties and their methods into object."
             },
             {
                 "dataType": "paragraph",
-                "data": "- It used to add, get, change or delete the HTML elements."
+                "data": " It used to add, get, change or delete the HTML elements."
             }
         ]
     },
@@ -92,11 +92,11 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- Hoisting is the default behavior of moving all the declarations at the top of the scope before code execution."
+                "data": " Hoisting is the default behavior of moving all the declarations at the top of the scope before code execution."
             },
             {
                 "dataType": "paragraph",
-                "data": "- JavaScript only hoists declarations, not initializations."
+                "data": " JavaScript only hoists declarations, not initializations."
             },
             {
                 "dataType": "code",
@@ -110,7 +110,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- A factory function can be defined as a function that creates an object and returns it.\n function name will be in camelCase."
+                "data": " A factory function can be defined as a function that creates an object and returns it.\n function name will be in camelCase."
             }
         ]
     },
@@ -120,19 +120,19 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- Constructor enables to provide custom initialization that must be done before any other methods can be called on an instantiated object ."
+                "data": " Constructor enables to provide custom initialization that must be done before any other methods can be called on an instantiated object ."
             },
             {
                 "dataType": "paragraph",
-                "data": "- Constructor function name should be in Pascal Case ."
+                "data": " Constructor function name should be in Pascal Case ."
             },
             {
                 "dataType": "paragraph",
-                "data": "- this keyword can be used inside of the constructor function."
+                "data": " this keyword can be used inside of the constructor function."
             },
             {
                 "dataType": "paragraph",
-                "data": "- It will automatically return the result, no need to write return keyword."
+                "data": " It will automatically return the result, no need to write return keyword."
             },
             {
                 "dataType": "code",
@@ -190,7 +190,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- Coercion refers to the process of automatic or implicit conversion of values from one data type to another."
+                "data": " Coercion refers to the process of automatic or implicit conversion of values from one data type to another."
             },
             {
                 "dataType": "code",
@@ -224,11 +224,11 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- 42 == '42' // true : compares the value (Equality Operator)"
+                "data": " 42 == '42' // true : compares the value (Equality Operator)"
             },
             {
                 "dataType": "paragraph",
-                "data": "- 42 === '42' // false : compares the value and data type (Strict Equality Operator)"
+                "data": " 42 === '42' // false : compares the value and data type (Strict Equality Operator)"
             }
         ]
     },
@@ -255,7 +255,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- Template Literal Uses Backtick `` "
+                "data": " Template Literal Uses Backtick `` "
             },
             {
                 "dataType": "code",
@@ -269,7 +269,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- The nullish coalescing (??) operator is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand. "
+                "data": " The nullish coalescing (??) operator is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand. "
             },
             {
                 "dataType": "code",
@@ -283,7 +283,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- Closure allows inner functions to access the outer scope of a function"
+                "data": " Closure allows inner functions to access the outer scope of a function"
             },
             {
                 "dataType": "code",
@@ -321,7 +321,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- The Object.create() static method creates a new object, using an existing object as the prototype of the newly created object."
+                "data": " The Object.create() static method creates a new object, using an existing object as the prototype of the newly created object."
             },
             {
                 "dataType": "code",
@@ -335,7 +335,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- dot operator used to access the properties inside of an object."
+                "data": " dot operator used to access the properties inside of an object."
             },
             {
                 "dataType": "code",
@@ -349,7 +349,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- Array notation is the method to access the properties using square bracket."
+                "data": " Array notation is the method to access the properties using square bracket."
             },
             {
                 "dataType": "code",
@@ -363,7 +363,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- The in operator returns true if the specified property is in the specified object or its prototype chain."
+                "data": " The in operator returns true if the specified property is in the specified object or its prototype chain."
             },
             {
                 "dataType": "code",
@@ -377,7 +377,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- The \"delete\" keyword used to delete object property."
+                "data": " The \"delete\" keyword used to delete object property."
             },
             {
                 "dataType": "code",
@@ -391,7 +391,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- The \"this\" keyword refers to an object."
+                "data": " The \"this\" keyword refers to an object."
             },
             {
                 "dataType": "code",
@@ -405,7 +405,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- The \"new \" keyword used to create an instance of object or array."
+                "data": " The \"new \" keyword used to create an instance of object or array."
             },
             {
                 "dataType": "code",
@@ -419,7 +419,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- prototypes are kind of object inheritance. Note: This willbe no longer available it's going to Deprecated."
+                "data": " prototypes are kind of object inheritance. Note: This willbe no longer available it's going to Deprecated."
             },
             {
                 "dataType": "code",
@@ -433,7 +433,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- oauth means open authentication. This is a method to login to a portal using another login credentials."
+                "data": " oauth means open authentication. This is a method to login to a portal using another login credentials."
             }
         ]
     },
@@ -443,7 +443,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- Javascript is a single threaded. As it has single call stack."
+                "data": " Javascript is a single threaded. As it has single call stack."
             }
         ]
     },
@@ -453,19 +453,19 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- Browser API's are Asynchronus."
+                "data": " Browser API's are Asynchronus."
             },
             {
                 "dataType": "paragraph",
-                "data": "- They are added in the queue."
+                "data": " They are added in the queue."
             },
             {
                 "dataType": "paragraph",
-                "data": "- Then It goes to call stack."
+                "data": " Then It goes to call stack."
             },
             {
                 "dataType": "paragraph",
-                "data": "- Queue to call stack moving is called as execution."
+                "data": " Queue to call stack moving is called as execution."
             }
         ]
     },
@@ -475,7 +475,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- Javascript is a dynamic language as we can change the values and types."
+                "data": " Javascript is a dynamic language as we can change the values and types."
             }
         ]
     },
@@ -485,7 +485,7 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- Preincrement"
+                "data": " Preincrement"
             },
             {
                 "dataType": "list",
@@ -499,7 +499,7 @@
             },
             {
                 "dataType": "paragraph",
-                "data": "- Postincrement"
+                "data": " Postincrement"
             },
             {
                 "dataType": "list",
@@ -519,18 +519,40 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "- The querySelector() method returns the first child element that matches a specified CSS selector(s) of an element"
+                "data": " The querySelector() method returns the first child element that matches a specified CSS selector(s) of an element"
             },
             {
                 "dataType": "paragraph",
-                "data": "- \"Note\": The querySelector() method only returns the first element that matches the specified selectors. To return all the matches, use the querySelectorAll() method instead."
+                "data": " \"Note\": The querySelector() method only returns the first element that matches the specified selectors. To return all the matches, use the querySelectorAll() method instead."
             }
 
         ]
     },
     {
         "id": 35,
-        "qus": "What is Class ?"
+        "qus": "What is Class ?",
+        "ans":[
+            {
+                "dataType": "paragraph",
+                "data": " JavaScript Classes are templates for JavaScript Objects."
+            },
+            {
+                "dataType": "code",
+                "data": " \n\n class Car { \n constructor(name, year) { \n this.name = name; \n this.year = year; \n } \n }"
+            },
+            {
+                "dataType": "paragraph",
+                "data": " The example above creates a class named \"Car\"."
+            },
+            {
+                "dataType": "paragraph",
+                "data": " The class has two initial properties: \"name\" and \"year\"."
+            },
+            {
+                "dataType": "paragraph",
+                "data": " A JavaScript class is not an object. It is a template for JavaScript objects"
+            }
+        ]
     },
     {
         "id": 36,
