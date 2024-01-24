@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Output, ViewChild, AfterViewInit, ChangeDetectorRef } from '@angular/core';
 
 @Component({
   selector: 'app-qus',
@@ -7,20 +7,29 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   templateUrl: './qus.component.html',
   styleUrl: './qus.component.scss'
 })
-export class QusComponent {
+export class QusComponent implements AfterViewInit {
 
   @ViewChild('QusModal')
   public QusModal!: ElementRef;
 
+  @Output() isComponentReady: EventEmitter<any> = new EventEmitter<any>();
   public subjectTitle: string = '';
   public qusData: Array<any> = [];
 
   public element: any;
-  constructor() { }
+  constructor(private cdRef: ChangeDetectorRef) { }
+
+  ngAfterViewInit() {
+    this.isComponentReady.emit();
+    this.cdRef.detectChanges(); 
+  }
+
   public openQusModal(subject: any, qus: any) {
     this.subjectTitle = subject;
-    this.qusData = qus;    
-    this.QusModal.nativeElement.classList.add('show');
+    this.qusData = qus;
+    setTimeout(() => {
+      this.QusModal.nativeElement.classList.add('show');
+    }, 100);
   }
 
   public closeQusModal() {

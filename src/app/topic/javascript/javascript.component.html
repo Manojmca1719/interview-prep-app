@@ -8,7 +8,7 @@
             @for (ans of item.ans; track $index) {
             @if(ans.dataType == 'paragraph') {
             <div class="ans">
-                {{ans.data}}
+                - {{ans.data}}
             </div>
             }
             @if(ans.dataType == 'list') {
@@ -34,4 +34,4 @@
     }
     }
 </div>
-<app-qus></app-qus>
+<ng-container #qusContainerRef></ng-container>
