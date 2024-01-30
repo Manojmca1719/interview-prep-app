@@ -525,13 +525,12 @@
                 "dataType": "paragraph",
                 "data": " \"Note\": The querySelector() method only returns the first element that matches the specified selectors. To return all the matches, use the querySelectorAll() method instead."
             }
-
         ]
     },
     {
         "id": 35,
         "qus": "What is Class ?",
-        "ans":[
+        "ans": [
             {
                 "dataType": "paragraph",
                 "data": " JavaScript Classes are templates for JavaScript Objects."
@@ -556,7 +555,60 @@
     },
     {
         "id": 36,
-        "qus": "Differences of var let and Const ?"
+        "qus": "Differences of var let and Const ?",
+        "ans": [
+            {
+                "dataType": "paragraph",
+                "data": "In JavaScript, users can declare a variable using three keywords that are var, let, and const. The behavior and the scope of a variable are also based on the keyword used to define it."
+            },
+            {
+                "dataType": "paragraph",
+                "data": "var"
+            },
+            {
+                "dataType": "list",
+                "data": [
+                    "In JavaScript. It has the Global scoped or function scoped",
+                    "It means variables defined outside the function can be accessed globally"
+                ]
+            },
+            {
+                "dataType": "code",
+                "data": "\n var a = 10 \n function f() { \n var b = 20 \n console.log(a, b) // 10 20\n } \n f(); \n console.log(a) // 10;"
+            },
+            {
+                "dataType": "paragraph",
+                "data": "let"
+            },
+            {
+                "dataType": "list",
+                "data": [
+                    "The let keyword is an improved version of the var keyword.",
+                    "These variables has the block scope.",
+                    "It can’t be accessible outside the particular code block ({block})."
+                ]
+            },
+            {
+                "dataType": "code",
+                "data": "\n let a = 10 \n if (true) { \n let a = 9 \n console.log(a)//9 \n } \n console.log(a); //10"
+            },
+            {
+                "dataType": "paragraph",
+                "data": "const"
+            },
+            {
+                "dataType": "list",
+                "data": [
+                    "The user cannot update it and have to assign it with a value at the time of declaration.",
+                    "These variables also have the block scope.",
+                    "It is mainly used to create constant variables whose values can not be changed once they are initialized with a value."
+                ]
+            },
+            {
+                "dataType": "code",
+                "data": "\n const a = 10 \n function f() { \n a = 9 \n console.log(a)//TypeError:Assignment to constant variable. \n } \n f()"
+            }
+        ]
     },
     {
         "id": 37,
