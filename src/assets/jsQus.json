@@ -612,7 +612,30 @@
     },
     {
         "id": 37,
-        "qus": "What is abstraction ?"
+        "qus": "What is abstraction ?",
+        "ans": [
+            {
+                "dataType": "paragraph",
+                "data": "Abstraction in computer programming is a way to reduce complexity and allow efficient design and implementation in complex software systems." 
+            },
+            {
+                "dataType": "paragraph",
+                "data": "Advantages" 
+            },
+            {
+                "dataType": "list",
+                "data": [
+                    "Helps the user to avoid writing low-level code.",
+                    "Avoids code duplication and increases reusability.",
+                    "Can change the internal implementation of a class independently without affecting the user.",
+                    "Helps to increase the security of an application or program as only important details are provided to the user."
+                ]
+            },
+            {
+                "dataType": "code",
+                "data": "\n class ImplementAbstraction { \n // method to set values of internal members \n set(x, y) { \n this.a = x; \n this.b = y; \n } \n display() { \n console.log(`a = ${this.a}`); \n console.log(`b = ${this.b}`); \n } \n }\n const obj = new ImplementAbstraction(); \n obj.set(10, 20); \n obj.display(); \n // a = 10 \n // b = 20"
+            }
+        ]
     },
     {
         "id": 38,
