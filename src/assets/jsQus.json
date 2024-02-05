@@ -653,7 +653,17 @@
     },
     {
         "id": 39,
-        "qus": "What is anonymous Function ?"
+        "qus": "What is anonymous Function ?",
+        "ans":[
+            {
+                "dataType":"paragraph",
+                "data":"Anonymous functions are functions that do not have a name. They can be assigned to variables or passed as arguments to higher order functions."
+            },
+            {
+                "dataType":"code",
+                "data":"\n let show = function() { \n console.log('Anonymous function'); \n}; \n show();"
+            }
+        ]
     },
     {
         "id": 40,
