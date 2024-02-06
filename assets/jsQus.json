@@ -110,7 +110,11 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": " A factory function can be defined as a function that creates an object and returns it.\n function name will be in camelCase."
+                "data": " A factory function can be defined as a function that creates an object and returns new Object. two or more object having the same properties instead of duplicating the object you can use function and return the new object for each and every time is known as factory function."
+            },
+            {
+                "dataType":"code",
+                "data":" \n function createPerson(firstName, lastName) { \n return { \n firstName: firstName, \n lastName: lastName, \n getFullName() { \n return firstName + ' ' + lastName; \n }, \n }; \n } \n let person1 = createPerson('John', 'Doe'); \n let person2 = createPerson('Jane', 'Doe'); \n console.log(person1.getFullName()); // return from person 1 object \n console.log(person2.getFullName()); // return from person 2 object"
             }
         ]
     },
@@ -667,46 +671,52 @@
     },
     {
         "id": 40,
-        "qus": "What is factory function ?"
+        "qus": "What is Object.assign({}) ?",
+        "ans":[
+            {
+                "dataType":"paragraph",
+                "data":"The Object.assign() static method copies all enumerable own properties from one or more source objects to a target object. It returns the modified target object."
+            },
+            {
+                "dataType":"code",
+                "data":"\n const target = { a: 1, b: 2 }; \n const source = { b: 4, c: 5 }; \n const returnedTarget = Object.assign(target, source); \n console.log(target);  // Expected output: Object { a: 1, b: 4, c: 5 } \n console.log(returnedTarget === target); // Expected output: true"
+            },
+            {
+                "dataType":"paragraph",
+                "data":"Remove the target value if its available in source value and it replace it."
+            }
+        ]
     },
     {
         "id": 41,
-        "qus": "What is constructor ?"
-    },
-    {
-        "id": 42,
-        "qus": "What is Object.assign({}) ?"
-    },
-    {
-        "id": 43,
         "qus": "What is dot(.) notation ?"
     },
     {
-        "id": 44,
+        "id": 42,
         "qus": "What is bracket() notation ?"
     },
     {
-        "id": 45,
+        "id": 43,
         "qus": "What is array notation ?"
     },
     {
-        "id": 46,
+        "id": 44,
         "qus": "What is in operator (in) used for ?"
     },
     {
-        "id": 47,
+        "id": 45,
         "qus": "What is prototype  ?"
     },
     {
-        "id": 48,
+        "id": 46,
         "qus": "Difference between function and class ?"
     },
     {
-        "id": 49,
+        "id": 47,
         "qus": "What is sub-sequence ?"
     },
     {
-        "id": 50,
+        "id": 48,
         "qus": "What is event loop ?"
     }
 ]
