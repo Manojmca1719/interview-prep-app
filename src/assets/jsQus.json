@@ -689,15 +689,13 @@
     },
     {
         "id": 41,
-        "qus": "What is dot(.) notation ?"
-    },
-    {
-        "id": 42,
-        "qus": "What is bracket() notation ?"
-    },
-    {
-        "id": 43,
-        "qus": "What is array notation ?"
+        "qus": "What is bracket() notation ?",
+        "ans":[
+            {
+                "dataType":"paragraph",
+                "data":"The parentheses notation is basically used to denote functions"
+            }
+        ]
     },
     {
         "id": 44,
