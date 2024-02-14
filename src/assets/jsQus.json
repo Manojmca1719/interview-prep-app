@@ -698,23 +698,33 @@
         ]
     },
     {
-        "id": 44,
-        "qus": "What is in operator (in) used for ?"
+        "id": 42,
+        "qus": "What is operator (in) used for ?",
+        "ans":[
+            {
+                "dataType":"paragraph",
+                "data":" for in operator is used for get the index value of array or get a key from object"
+            },
+            {
+                "dataType" : "code",
+                "data":"\n let arr = [1,4,6,7,8] \n for(let i in arr) { \n console.log(i) // 0, 1, 2, 3, 4 \n } \n let obj = { \n name : \"Jhon\",\n age:25 \n} \n for(let i in obj){\n console.log(i) //name, age \n}"
+            }
+        ]
     },
     {
-        "id": 45,
+        "id": 43,
         "qus": "What is prototype  ?"
     },
     {
-        "id": 46,
+        "id": 44,
         "qus": "Difference between function and class ?"
     },
     {
-        "id": 47,
+        "id": 45,
         "qus": "What is sub-sequence ?"
     },
     {
-        "id": 48,
+        "id": 46,
         "qus": "What is event loop ?"
     }
 ]
