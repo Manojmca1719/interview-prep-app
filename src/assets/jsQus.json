@@ -731,7 +731,25 @@
     },
     {
         "id": 44,
-        "qus": "Difference between function and class ?"
+        "qus": "Difference between function and class ?",
+        "ans":[
+            {
+                "dataType":"paragraph",
+                "data":"Functions - Functions are essentially just small blocks of code that you can encapsulate and name, therefore making that code easily reusable. Sometimes they are referred to as procedures or subroutines."
+            },
+            {
+                "dataType":"code",
+                "data":"\n function square(num) { \n return num * num; \n }\n \n console.log( square(5) ); // logs 25"
+            },
+            {
+                "dataType":"paragraph",
+                "data":"Classes - Classes, on the other hand, are more like blueprints for objects. Objects are specific instances of classes that can have properties (which store information about the object and possible pieces of \"state\") and methods, which are functions within the class, that can manipulate, validate, present, etc. that objects properties. Classes/objects often emulate real-world objects, such as cars or bank accounts."
+            },
+            {
+                "dataType":"code",
+                "data":"\n class Car { \n constructor(name, year, gas) {\nthis.name = name;\nthis.year = year;\nthis.gas = gas\nthis.odometer = 0; // default - new car has 0 miles\n}\ndrive(miles) {\nthis.odometer = this.odometer + miles;\nthis.gas = this.gas - (miles/20); // 20 miles to the gallon\n}\n}\n\nlet myCar = new Car(\"VW\", \"1972\", 20);\n \n myCar.drive(40); // Drive 40 miles & use up 2 gallons of gas\n \nconsole.log(myCar.gas); // now 18 gallons\n console.log(myCar.odometer); // now reads 40 miles"
+            }
+        ]
     },
     {
         "id": 45,
