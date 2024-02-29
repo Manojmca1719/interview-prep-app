@@ -113,8 +113,8 @@
                 "data": " A factory function can be defined as a function that creates an object and returns new Object. two or more object having the same properties instead of duplicating the object you can use function and return the new object for each and every time is known as factory function."
             },
             {
-                "dataType":"code",
-                "data":" \n function createPerson(firstName, lastName) { \n return { \n firstName: firstName, \n lastName: lastName, \n getFullName() { \n return firstName + ' ' + lastName; \n }, \n }; \n } \n let person1 = createPerson('John', 'Doe'); \n let person2 = createPerson('Jane', 'Doe'); \n console.log(person1.getFullName()); // return from person 1 object \n console.log(person2.getFullName()); // return from person 2 object"
+                "dataType": "code",
+                "data": " \n function createPerson(firstName, lastName) { \n return { \n firstName: firstName, \n lastName: lastName, \n getFullName() { \n return firstName + ' ' + lastName; \n }, \n }; \n } \n let person1 = createPerson('John', 'Doe'); \n let person2 = createPerson('Jane', 'Doe'); \n console.log(person1.getFullName()); // return from person 1 object \n console.log(person2.getFullName()); // return from person 2 object"
             }
         ]
     },
@@ -620,11 +620,11 @@
         "ans": [
             {
                 "dataType": "paragraph",
-                "data": "Abstraction in computer programming is a way to reduce complexity and allow efficient design and implementation in complex software systems." 
+                "data": "Abstraction in computer programming is a way to reduce complexity and allow efficient design and implementation in complex software systems."
             },
             {
                 "dataType": "paragraph",
-                "data": "Advantages" 
+                "data": "Advantages"
             },
             {
                 "dataType": "list",
@@ -644,80 +644,112 @@
     {
         "id": 38,
         "qus": "What is try catch ?",
-        "ans":[
+        "ans": [
             {
-                "dataType":"paragraph",
+                "dataType": "paragraph",
                 "data": "The try...catch statement is comprised of a try block and either a catch block, a finally block, or both. The code in the try block is executed first, and if it throws an exception, the code in the catch block will be executed. The code in the finally block will always be executed before control flow exits the entire construct."
             },
             {
-                "dataType":"code",
-                "data":"\n try { \n nonExistentFunction(); \n } catch (error) { \n console.error(error); \n // Expected output: ReferenceError: nonExistentFunction is not defined \n // (Note: the exact output may be browser-dependent) \n }"
+                "dataType": "code",
+                "data": "\n try { \n nonExistentFunction(); \n } catch (error) { \n console.error(error); \n // Expected output: ReferenceError: nonExistentFunction is not defined \n // (Note: the exact output may be browser-dependent) \n }"
             }
         ]
     },
     {
         "id": 39,
         "qus": "What is anonymous Function ?",
-        "ans":[
+        "ans": [
             {
-                "dataType":"paragraph",
-                "data":"Anonymous functions are functions that do not have a name. They can be assigned to variables or passed as arguments to higher order functions."
+                "dataType": "paragraph",
+                "data": "Anonymous functions are functions that do not have a name. They can be assigned to variables or passed as arguments to higher order functions."
             },
             {
-                "dataType":"code",
-                "data":"\n let show = function() { \n console.log('Anonymous function'); \n}; \n show();"
+                "dataType": "code",
+                "data": "\n let show = function() { \n console.log('Anonymous function'); \n}; \n show();"
             }
         ]
     },
     {
         "id": 40,
         "qus": "What is Object.assign({}) ?",
-        "ans":[
+        "ans": [
             {
-                "dataType":"paragraph",
-                "data":"The Object.assign() static method copies all enumerable own properties from one or more source objects to a target object. It returns the modified target object."
+                "dataType": "paragraph",
+                "data": "The Object.assign() static method copies all enumerable own properties from one or more source objects to a target object. It returns the modified target object."
             },
             {
-                "dataType":"code",
-                "data":"\n const target = { a: 1, b: 2 }; \n const source = { b: 4, c: 5 }; \n const returnedTarget = Object.assign(target, source); \n console.log(target);  // Expected output: Object { a: 1, b: 4, c: 5 } \n console.log(returnedTarget === target); // Expected output: true"
+                "dataType": "code",
+                "data": "\n const target = { a: 1, b: 2 }; \n const source = { b: 4, c: 5 }; \n const returnedTarget = Object.assign(target, source); \n console.log(target);  // Expected output: Object { a: 1, b: 4, c: 5 } \n console.log(returnedTarget === target); // Expected output: true"
             },
             {
-                "dataType":"paragraph",
-                "data":"Remove the target value if its available in source value and it replace it."
+                "dataType": "paragraph",
+                "data": "Remove the target value if its available in source value and it replace it."
             }
         ]
     },
     {
         "id": 41,
         "qus": "What is bracket() notation ?",
-        "ans":[
+        "ans": [
             {
-                "dataType":"paragraph",
-                "data":"The parentheses notation is basically used to denote functions"
+                "dataType": "paragraph",
+                "data": "The parentheses notation is basically used to denote functions"
             }
         ]
     },
     {
         "id": 42,
         "qus": "What is operator (in) used for ?",
-        "ans":[
+        "ans": [
             {
-                "dataType":"paragraph",
-                "data":" for in operator is used for get the index value of array or get a key from object"
+                "dataType": "paragraph",
+                "data": " for in operator is used for get the index value of array or get a key from object"
             },
             {
-                "dataType" : "code",
-                "data":"\n let arr = [1,4,6,7,8] \n for(let i in arr) { \n console.log(i) // 0, 1, 2, 3, 4 \n } \n let obj = { \n name : \"Jhon\",\n age:25 \n} \n for(let i in obj){\n console.log(i) //name, age \n}"
+                "dataType": "code",
+                "data": "\n let arr = [1,4,6,7,8] \n for(let i in arr) { \n console.log(i) // 0, 1, 2, 3, 4 \n } \n let obj = { \n name : \"Jhon\",\n age:25 \n} \n for(let i in obj){\n console.log(i) //name, age \n}"
             }
         ]
     },
     {
         "id": 43,
-        "qus": "What is prototype  ?"
+        "qus": "What is prototype ?",
+        "ans": [
+            {
+                "dataType": "paragraph",
+                "data": " The prototype is an object that is associated with every functions and objects by default in JavaScript, where function's prototype property is accessible and modifiable and object's prototype property (aka attribute) is not visible."
+            },
+            {
+                "dataType": "code",
+                "data": "\nfunction Student() { \nthis.name = 'John'; \nthis.gender = 'Male'; \n}\n\nvar studObj1 = new Student();\n studObj1.age = 15;\n alert(studObj1.age); // 15\n\n var studObj2 = new Student();\n alert(studObj2.age); // undefined"
+            },
+            {
+                "dataType": "code",
+                "data": "\nfunction Student() {\nthis.name = 'John';\nthis.gender = 'Male';\n}\nStudent.prototype.age = 15;\n\nvar studObj1 = new Student();\n alert(studObj1.age); // 15\n\n var studObj2 = new Student();\n alert(studObj2.age); // 15"
+            }
+        ]
     },
     {
         "id": 44,
-        "qus": "Difference between function and class ?"
+        "qus": "Difference between function and class ?",
+        "ans":[
+            {
+                "dataType":"paragraph",
+                "data":"Functions - Functions are essentially just small blocks of code that you can encapsulate and name, therefore making that code easily reusable. Sometimes they are referred to as procedures or subroutines."
+            },
+            {
+                "dataType":"code",
+                "data":"\n function square(num) { \n return num * num; \n }\n \n console.log( square(5) ); // logs 25"
+            },
+            {
+                "dataType":"paragraph",
+                "data":"Classes - Classes, on the other hand, are more like blueprints for objects. Objects are specific instances of classes that can have properties (which store information about the object and possible pieces of \"state\") and methods, which are functions within the class, that can manipulate, validate, present, etc. that objects properties. Classes/objects often emulate real-world objects, such as cars or bank accounts."
+            },
+            {
+                "dataType":"code",
+                "data":"\n class Car { \n constructor(name, year, gas) {\nthis.name = name;\nthis.year = year;\nthis.gas = gas\nthis.odometer = 0; // default - new car has 0 miles\n}\ndrive(miles) {\nthis.odometer = this.odometer + miles;\nthis.gas = this.gas - (miles/20); // 20 miles to the gallon\n}\n}\n\nlet myCar = new Car(\"VW\", \"1972\", 20);\n \n myCar.drive(40); // Drive 40 miles & use up 2 gallons of gas\n \nconsole.log(myCar.gas); // now 18 gallons\n console.log(myCar.odometer); // now reads 40 miles"
+            }
+        ]
     },
     {
         "id": 45,
