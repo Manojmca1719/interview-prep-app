@@ -16,7 +16,7 @@
     <div class="offcanvas-body p-0">
         <ul class="list-unstyled menu-list">
             @for (item of menuListData; track $index) {
-            <li class="border-bottom menu-item px-3 py-2" [routerLink]="item.routerLink" routerLinkActive="'is-active'">
+            <li class="border-bottom menu-item px-3 py-2" [routerLink]="item.routerLink" routerLinkActive="'is-active'"  data-bs-dismiss="offcanvas">
                 {{item.title}}
             </li>
             }

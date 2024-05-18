@@ -1,0 +1,37 @@
+<div class="question-contented-area">
+    <div class="secrat-box" (click)="getQusModal()"></div>
+    @for (item of dataQusAns; track $index) {
+    @if(item.visibility){
+    <div class="question-answer p-3">
+        <div class="question" [attr.id]="'question-'+item.id">{{item.id}}. {{item.qus}}</div>
+        <div class="answer">
+            @for (ans of item.ans; track $index) {
+            @if(ans.dataType == 'paragraph') {
+            <div class="ans">
+                - {{ans.data}}
+            </div>
+            }
+            @if(ans.dataType == 'list') {
+            <ul class="mb-0">
+                @for(li of ans.data;track $index) {
+                <li>{{li}}</li>
+                }
+            </ul>
+            }
+            @if(ans.dataType == 'code') {
+            <code>
+                <pre>
+                    {{ans.data}}
+                </pre>
+            </code>
+            }
+            }
+        </div>
+    </div>
+    }
+    @if(item.length != item.id && item.visibility){
+    <hr class="m-0">
+    }
+    }
+</div>
+<ng-container #qusContainerRef></ng-container>

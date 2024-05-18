@@ -12,6 +12,11 @@ img {
 	background: white;
 	margin-bottom: 2em;	
     border-radius: 5px;
+    margin: 10px;
+
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .card a {
@@ -42,7 +47,7 @@ img {
     .cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: start;
     }
 
     .card {

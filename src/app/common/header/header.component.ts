@@ -1,8 +1,8 @@
 import { HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { CommonService } from '../common.service';
 import { IconsModule } from '../icons/icons.module';
-import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',

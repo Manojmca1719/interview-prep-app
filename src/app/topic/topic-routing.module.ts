@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'javascript',
     loadComponent: () => import('./javascript/javascript.component').then(c => c.JavascriptComponent)
   },
+  {
+    path: 'angular',
+    loadComponent: () => import('./angular/angular.component').then(c => c.AngularComponent),
+  }
 ];
 
 @NgModule({
