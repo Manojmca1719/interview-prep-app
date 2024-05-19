@@ -732,31 +732,51 @@
     {
         "id": 44,
         "qus": "Difference between function and class ?",
-        "ans":[
+        "ans": [
             {
-                "dataType":"paragraph",
-                "data":"Functions - Functions are essentially just small blocks of code that you can encapsulate and name, therefore making that code easily reusable. Sometimes they are referred to as procedures or subroutines."
+                "dataType": "paragraph",
+                "data": "Functions - Functions are essentially just small blocks of code that you can encapsulate and name, therefore making that code easily reusable. Sometimes they are referred to as procedures or subroutines."
             },
             {
-                "dataType":"code",
-                "data":"\n function square(num) { \n return num * num; \n }\n \n console.log( square(5) ); // logs 25"
+                "dataType": "code",
+                "data": "\n function square(num) { \n return num * num; \n }\n \n console.log( square(5) ); // logs 25"
             },
             {
-                "dataType":"paragraph",
-                "data":"Classes - Classes, on the other hand, are more like blueprints for objects. Objects are specific instances of classes that can have properties (which store information about the object and possible pieces of \"state\") and methods, which are functions within the class, that can manipulate, validate, present, etc. that objects properties. Classes/objects often emulate real-world objects, such as cars or bank accounts."
+                "dataType": "paragraph",
+                "data": "Classes - Classes, on the other hand, are more like blueprints for objects. Objects are specific instances of classes that can have properties (which store information about the object and possible pieces of \"state\") and methods, which are functions within the class, that can manipulate, validate, present, etc. that objects properties. Classes/objects often emulate real-world objects, such as cars or bank accounts."
             },
             {
-                "dataType":"code",
-                "data":"\n class Car { \n constructor(name, year, gas) {\nthis.name = name;\nthis.year = year;\nthis.gas = gas\nthis.odometer = 0; // default - new car has 0 miles\n}\ndrive(miles) {\nthis.odometer = this.odometer + miles;\nthis.gas = this.gas - (miles/20); // 20 miles to the gallon\n}\n}\n\nlet myCar = new Car(\"VW\", \"1972\", 20);\n \n myCar.drive(40); // Drive 40 miles & use up 2 gallons of gas\n \nconsole.log(myCar.gas); // now 18 gallons\n console.log(myCar.odometer); // now reads 40 miles"
+                "dataType": "code",
+                "data": "\n class Car { \n constructor(name, year, gas) {\nthis.name = name;\nthis.year = year;\nthis.gas = gas\nthis.odometer = 0; // default - new car has 0 miles\n}\ndrive(miles) {\nthis.odometer = this.odometer + miles;\nthis.gas = this.gas - (miles/20); // 20 miles to the gallon\n}\n}\n\nlet myCar = new Car(\"VW\", \"1972\", 20);\n \n myCar.drive(40); // Drive 40 miles & use up 2 gallons of gas\n \nconsole.log(myCar.gas); // now 18 gallons\n console.log(myCar.odometer); // now reads 40 miles"
             }
         ]
     },
     {
         "id": 45,
-        "qus": "What is sub-sequence ?"
+        "qus": "What is instance variable ?",
+        "ans": [
+            {
+                "dataType": "paragraph",
+                "data": "Variables that are created inside the class, construcctor is called as instance variable."
+            }
+        ]
     },
     {
         "id": 46,
-        "qus": "What is event loop ?"
+        "qus": "What is base class and derived class ?",
+        "ans": [
+            {
+                "dataType": "paragraph",
+                "data": "The base and derived class is nothing Inheritance of class."
+            },
+            {
+                "dataType": "paragraph",
+                "data": "To create a class inheritance, use the extends keyword."
+            },
+            {
+                "dataType": "code",
+                "data": "\n class base { \n constructor(attribute1, att2) { \n this._a1 = attribute1; \n this._a2 = att2; \n } \n} \n\n class derived extends base { \n constructor(a1, a2, a3) { \n super(a1, a2); \n this._a3 = a3; \n } \n generateBase() { \n // became useless \n return this; \n} \n}"
+            }
+        ]
     }
 ]
