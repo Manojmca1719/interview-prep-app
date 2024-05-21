@@ -1,4 +1,4 @@
-<div class="question-contented-area">
+<!-- <div class="question-contented-area">
     <div class="secrat-box" (click)="getQusModal()"></div>
     @for (item of dataQusAns; track $index) {
     @if(item.visibility){
@@ -34,4 +34,1070 @@
     }
     }
 </div>
-<ng-container #qusContainerRef></ng-container>
+<ng-container #qusContainerRef></ng-container> -->
+
+<div class="container-fluid">
+    <section id="what-is-angular">
+        <h2> What is Angular?</h2>
+
+        <div class="answer-container ml-5">
+            <ul>
+                <li> Angular is a component-based Framework for building scalable web applications. built on TypeScript.
+                </li>
+                <li> A collection of well-integrated libraries that covers a wide variety of features, including forms,
+                    routing, client-server communication, and more </li>
+                <li> Developed by Google</li>
+            </ul>
+        </div>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+
+    <section>
+        <h2> AngularJs vs Angular?</h2>
+
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Angular Js</th>
+                        <th scope="col">Angular</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td> It's a Library</td>
+                        <td> It's a Framework</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>JavaScript Based</td>
+                        <td>TypeScript Based</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td> It uses Controller and $scope</td>
+                        <td> It uses Component and Directives</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td> CLI Not Included</td>
+                        <td> CLI Included</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+
+    <section>
+        <h2> JavaScript vs TypeScript?</h2>
+
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col"> JavaScript</th>
+                        <th scope="col"> TypeScript</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td> Prototype Based</td>
+                        <td> Oops Based</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td> Can't declare the dataType</td>
+                        <td> can declare the dataType</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td> Not Supporting Interfaces</td>
+                        <td> Supporting Interfaces</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+
+    <section>
+        <h2> Advantages of Angular?</h2>
+        <ul>
+            <li> SPA </li>
+            <li> Material Supported</li>
+            <li> Faster Developement </li>
+            <li> Easy to Maintain the code </li>
+            <li> CLI Supported </li>
+            <li> More Built in functionalities </li>
+        </ul>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is the Latest Version of Angular?</h2>
+        <p> Version 15, Released on Nov 2022</p>
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is SPA?</h2>
+        <p class="mx-4"> SPA means Single Page Application. The application can be built using only one page with
+            multiple
+            components.</p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Angular Architecture</h2>
+        <p> MVC (Modal View Component) / MVVM ( Modal View ViewModal) </p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What are the Compilation Methods available in Angular? </h2>
+        <ul>
+            <li> AOT </li>
+            <li> JIT </li>
+        </ul>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is AOT?</h2>
+        <p>
+            Compiles the application at build time. This is the default starting in Angular 9.
+        </p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is JIT?</h2>
+        <p>Compiles the application in the browser at runtime. This was the default until Angular 8.</p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> AOT vs JIT?</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col"> AOT </th>
+                        <th scope="col"> JIT </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td> Compiles in Build Time </td>
+                        <td> Compiles in Run Time </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Default till Angular 9 </td>
+                        <td>Default till Angular 8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Component?</h2>
+        <p> Components are UI building blocks in the app</p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is template?</h2>
+        <p> A template is a form of HTML that tells Angular how to render the component </p>
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What are the ways to create a template?</h2>
+        <ul>
+            <li> Inline Template</li>
+            <li> Linked Template</li>
+        </ul>
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Module?</h2>
+        <p> The Module is a container for the application controllers </p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Service?</h2>
+        <p> Services are used to Integrate API's to the applicatiothe with the use of &#64;injectable decorator </p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Which file will run after compilation?</h2>
+        <ul>
+            <li> package.json </li>
+            <li> angular.json </li>
+            <li> main.ts (angular bootstraping) </li>
+            <li> app.module.ts (root module )</li>
+            <li> app.component.ts (bootstrapped component) </li>
+        </ul>
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> How many lifeCycle Hooks are available in Angular? </h2>
+        <p class="text-danger"> 8 </p>
+    </section>
+
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What are the lifeCycle Hooks are available in Angular? </h2>
+        <ul>
+            <li> ngOnchanges()</li>
+            <li> ngOnit()</li>
+            <li> ngDoCheck()</li>
+            <li> ngAfterViewInit()</li>
+            <li> ngAfterContentInit()</li>
+            <li> ngAfterViewChecked()</li>
+            <li> ngAfterContentChecked()</li>
+            <li> ngOnDestroy()</li>
+        </ul>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> ngOnChanges()?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> ngOnInit()?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> ngDoCheck()?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> ngAfterViewInit()?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> ngAfterContentInit()?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> ngAfterViewChecked()?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> ngAfterContentChecked()?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> ngOnDestroy()?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is the hierarchy of loading a component?</h2>
+        <ul>
+            <li> constructor </li>
+            <li> ngOnChanges</li>
+            <li> ngOnInit</li>
+        </ul>
+    </section>
+
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Which lifeCycle Hook will call immediately after loading a component?</h2>
+        <p> ngOnChanges()</p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Which one will be called first? Constructor or ngOnInit?</h2>
+        <p> Constructor getting called before ngOnInit</p>
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Constructor vs ngOnInit?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+
+    <section>
+        <h2> What is Constructor?</h2>
+
+        <ul>
+            <li> Constructor enables to provide custom initialization that must be done before any other methods can be
+                called on an instantiated object </li>
+            <li> Construcor function name should be in Pascal Case</li>
+            <li> this keyword can be used inside of the constructor function </li>
+            <li> It will automatically return the result, no need to write return keyword</li>
+        </ul>
+
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+
+
+
+    <section>
+        <h2> What is Router?</h2>
+        <p> In Single page application, Router used to hide and show the corresponding components without moving to
+            a new Page
+            and without refreshing the screen. </p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is router-outlet?</h2>
+        <p> router-outlet is an Angular directive from the router library that is used to insert the component matched
+            by routes to be displayed on the screen. It's exported by the RouterModule and added to the template as
+            shown below</p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Can we declare more than one router-outelet in an application?</h2>
+        <p class="text-danger"> Yes.</p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Lazyloading?</h2>
+        <ul>
+            <li> On-demand loading is called as Lazyloading. </li>
+            <li> Assets and libraries will be loading only based on the request. </li>
+            <li> This can be achieved by loadChildren in the app-route.ts file </li>
+        </ul>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Eager Loading?</h2>
+        <p> Eager loading is the default module-loading strategy. This is typically used for small size applications</p>
+    </section>
+
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is LoadChildren?</h2>
+        <p> LoadChildren helps to load assets and libraries based on the request in the lazy loading concept</p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is AuthGuard?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is CanActive?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is View Encapsulation?</h2>
+        <p> In Angular, a component's styles can be encapsulated within the component's host element. <br>
+            So that they don't affect the rest of the application. <br> The Component decorator provides the
+            encapsulation option which can be used to control.</p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Animation?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is String Interpolation?</h2>
+        <ul>
+            <li> String Interpolation refers to embedding expressions into marked up text. </li>
+            <li> By default, interpolation uses the double curly braces {{"&lcub;"}}{{"&lcub;"}} text
+                {{"&rcub;"}}{{"&rcub;"}} as delimiter. </li>
+        </ul>
+
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Types of Data Binding?</h2>
+        <ul>
+            <li> one-way-data-binding</li>
+            <li> two-way-data-binding</li>
+
+            <img src="https://dotnettutorials.net/wp-content/uploads/2018/09/word-image-170.png" alt="">
+        </ul>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is one-way-data-binding?</h2>
+        <p> One-way data binding is a way to bind data from the component to the view (DOM) or vice versa - from view to
+            the component. <br>
+            It is used to display the information which automatically stays synchronized with each change of the
+            underlying data.
+        </p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is two-way-data-binding?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is property binding?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is event binding?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Dependancy Injection?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Types of Directives in Angular?</h2>
+        <ul>
+            <li> Component Directive</li>
+            <li> Structural Directive</li>
+            <li> Attribute Directive</li>
+        </ul>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Component Directive?</h2>
+        <p> Defines the html template <br>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Structural Directive?</h2>
+        <ul>
+            <li> Defines the DOM layout by adding and removing the DOM elements </li>
+            <li> Requires asterisk(*) precedes</li>
+            <li>
+                Example :
+                <pre>
+            <code class="language-html" data-lang="html">
+        <span>&lt;</span><span>div</span> <span>*ngIf</span><span>=</span><span >"age>18"</span><span>&gt;</span> <span>Content </span><span >&lt;/</span><span >div</span><span >&gt;</span>
+        </code>
+    </pre>
+            </li>
+        </ul>
+
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Attribute Directive?</h2>
+        <ul>
+            <li> Defines the behaviour a DOM element </li>
+            <li> It requires a class annotation. </li>
+            <li> Types
+                <ul>
+                    <li> ngClass </li>
+                    <li> ngStyle</li>
+                    <li> ngModel</li>
+                </ul>
+            </li>
+        </ul>
+
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is ngModel?</h2>
+        <p> NgModel Creates a FormControl instance from a domain model and binds it to a form control element. </p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Write an Example for ngModel?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is ng-container</h2>
+        <ul>
+            <li> This is a special angular element that can hold structural directives without adding new elements to
+                the DOM. </li>
+            <li> And making sure that the only DOM changes are being applied on those dictated by the directives
+                themselves.</li>
+        </ul>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Syntax of ngIf </h2>
+        <pre>
+            <code class="language-html" data-lang="html">
+        <span>&lt;</span><span>div</span> <span>*ngIf</span><span>=</span><span >"condition"</span><span>&gt;</span> <span>Content </span><span >&lt;/</span><span >div</span><span >&gt;</span>
+        </code>
+    </pre>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Syntax of ngIf else</h2>
+
+        <!-- <div *ngIf="age>18; else elseBlock">Content to render when condition is true.</div>
+        <ng-template #elseBlock>Content to render when condition is false.</ng-template> -->
+
+        <pre>
+            <code class="language-html" data-lang="html">
+        <span>&lt;</span><span>div</span> <span>*ngIf</span><span>=</span><span >"condition; else elseTemplateName"</span><span>&gt;</span> <span> If Content </span><span >&lt;/</span><span >div</span><span >&gt;</span>
+        <span>&lt;</span><span>ng-template</span> <span>#elseTemplateName</span><span>&gt;</span> <span> Else Content </span><span >&lt;/</span><span >ng-template</span><span >&gt;</span>
+        </code>
+    </pre>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+
+
+    <section>
+        <h2> Syntax of ngFor</h2>
+
+        <pre>
+            <code class="language-html" data-lang="html">
+        <span>&lt;</span><span>div</span> <span>*ngFor="let item of items</span><span>&gt;</span> 
+        <span> {{"&lcub;"}}{{"&lcub;"}} itme.name
+            {{"&rcub;"}}{{"&rcub;"}} </span>
+        <span >&lt;/</span><span >div</span><span >&gt;</span>
+        </code>
+    </pre>
+
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Syntax of ngSwitch</h2>
+
+        <pre>
+        <code class="language-html" data-lang="html">
+    <span>&lt;</span><span>div</span> <span>*ngIf</span><span>=</span><span >"condition"</span><span>&gt;</span> <span>Content </span><span >&lt;/</span><span >div</span><span >&gt;</span>
+    </code>
+</pre>
+
+
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Entity?</h2>
+        <p> Entity is a state management in Angular. We can define the fromat of object and array inside that. </p>
+        <p>Example : </p>
+
+        <pre>
+      export class Banner {{'&lcub;'}}
+        userId: string;
+        name: string;
+        age: number;
+        skills: string[];
+        pageUrl: string[];
+        activeUser: boolean;
+        {{'&rcub;'}}
+        </pre>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section>
+        <h2> What is Interface?</h2>
+    </section>
+
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What are Decorators?</h2>
+        <ul>
+            <li> &#64;Component </li>
+            <li> &#64;Injectable</li>
+            <li> &#64;NgModule </li>
+            <li> &#64;Directive </li>
+            <li> &#64;HostListner </li>
+            <li> &#64;HostBinding </li>
+            <li> &#64;ContentChild </li>
+            <li> &#64;ContentChildren </li>
+            <li> &#64;ViewChild </li>
+            <li> &#64;ViewChildren </li>
+            <li> &#64;Input </li>
+            <li> &#64;Output </li>
+            <li> &#64;Pipe</li>
+        </ul>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;Component Decorator</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;Injectable Decorator</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;NgModule Decorator </h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;Directive </h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;HostListner </h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;HostBinding </h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;ContentChild </h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;ContentChildren </h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;ViewChild </h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;ViewChildren </h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;Input </h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;Output</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> &#64;Pipe</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is PurePipe?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is ImpurePipe?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is ProvideIn?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is SSR means in Angular? </h2>
+        <ul>
+            <li> SSR means Server Side Rendering. </li>
+            <li> Normal Angular application executes in the browser. </li>
+            <li> But in Angular Universal, executes on the server side, generating static application pages then
+                later get bootstrapped on the client side. </li>
+            <li> Therefore giving users a chance to view the application layout before it becomes fully interactive.
+            </li>
+        </ul>
+    </section>
+
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2>Which command used for generate Angular Universal? </h2>
+        <p class="text-danger"> ng add &#64;nguniversal/express-engine </p>
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> How to run Angular Universal? </h2>
+        <p class="text-danger">
+            npm run dev:ssr </p>
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What are the advantages of SSR? </h2>
+        <ul>
+            <li> Facilitate web crawlers through SEO</li>
+            <li> Improve the loading speed </li>
+            <li> Improve performance on mobile and low-powered devices </li>
+
+        </ul>
+    </section>
+
+
+
+
+
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Angular Bootstraping? </h2>
+        <p> main.ts file => platformBrowserDynamic().bootstrapModule(AppModule) <br>
+            app.module.ts file => bootstrap : [AppComponent]</p>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Shared Directives?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What are the ways to share the data between components?</h2>
+        <ul>
+            <li> Parent to Child - &#64;Input </li>
+            <li> Child to Parent - &#64;Output</li>
+            <li> Unrelated Components - Service</li>
+        </ul>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> How to Pass the data from Parent to Child? </h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> How to pass the data from Child to Parent?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is RXjs?</h2>
+        <ul>
+            <li> RXJs means Reactive Extensions for JavaScript. </li>
+            <li> This is a library for composing asynchronous and event-based programs by using observable
+                sequences. </li>
+        </ul>
+
+
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What are RXjs Operators?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Subscribe?</h2>
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> How to unsubscribe?</h2>
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Subject Behaviour?</h2>
+
+
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Observable?</h2>
+        <ul>
+            <li> Observabl is a concept from RxJs, used to write asynchronous or call-back based code. </li>
+            <li> Observables are lazy Push collections of multiple values </li>
+            <li> This can be used in multiple places. </li>
+            <li> The HTTP Module uses observables to handle AJAX request and response. </li>
+            <li>
+                The Router and Forms modules use observables to listen and respond to user-input events </li>
+        </ul>
+
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Promise?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What are the States are availble in Promise?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is sync?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Async?</h2>
+    </section>
+
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> Promise vs Observable?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Reactive Form?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> How to do Form Validation?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is eventBubbling?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What are the prototypes in Angular?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> what is angular interceptor?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> what is declarations?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> what is providers?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> what is singleton in Angular?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> what is Jasmine in Angular?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> what is Karma in Angular?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> How to write unit test cases in Angular?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Scope in Angular?</h2>
+    </section>
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Monolithic and Microservices?</h2>
+    </section>
+
+
+    <hr style="border-top: dotted 1px;" />
+
+    <section>
+        <h2> What is Private and Public in Angular?</h2>
+    </section>
+</div>
