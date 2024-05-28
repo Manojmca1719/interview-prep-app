@@ -1,16 +1,13 @@
 import { Component } from '@angular/core';
-import { CommonService } from '../../common/common.service';
-import { HttpClientModule } from '@angular/common/http';
 import { RouterLink } from '@angular/router';
+import { CommonService } from '../../common/common.service';
 
-@Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [HttpClientModule, RouterLink],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
-  providers:[CommonService]
-})
+@Component({ selector: 'app-home',
+    standalone: true,
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.scss', 
+    imports: [RouterLink], 
+    providers: [CommonService] })
 export class HomeComponent {
 
   public menuListData: Array<any> = [];

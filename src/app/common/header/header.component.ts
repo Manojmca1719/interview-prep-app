@@ -1,17 +1,12 @@
-import { HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { CommonService } from '../common.service';
 import { IconsModule } from '../icons/icons.module';
 
-@Component({
-  selector: 'app-header',
-  standalone: true,
-  imports: [IconsModule, HttpClientModule, RouterLink],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss',
-  providers: [CommonService]
-})
+@Component({ selector: 'app-header',
+    standalone: true,
+    templateUrl: './header.component.html',
+    styleUrl: './header.component.scss', imports: [IconsModule, RouterLink], providers: [CommonService] })
 export class HeaderComponent {
   public menuListData: Array<any> = [];
   constructor(private commonService: CommonService) {

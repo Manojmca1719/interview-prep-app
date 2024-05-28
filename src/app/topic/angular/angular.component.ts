@@ -1,4 +1,3 @@
-import { HttpClientModule } from '@angular/common/http';
 import { Component, ComponentRef, ViewChild, ViewContainerRef } from '@angular/core';
 import { CommonService } from '../../common/common.service';
 import { QusComponent } from '../../common/qus/qus.component';
@@ -6,9 +5,9 @@ import { QusComponent } from '../../common/qus/qus.component';
 @Component({
   selector: 'app-angular',
   standalone: true,
-  imports: [HttpClientModule],
   templateUrl: './angular.component.html',
-  styleUrl: './angular.component.scss',
+  styleUrl: './angular.component.scss', 
+  imports: [], 
   providers: [CommonService]
 })
 export class AngularComponent {
@@ -29,7 +28,7 @@ export class AngularComponent {
       this.dataQusAns.forEach((data: any) => {
         this.qusAloneData.push(data.qus)
         data["visibility"] = "ans" in data;
-      })      
+      })
     })
   }
 
