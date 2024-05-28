@@ -1,0 +1,1 @@
+import{Ab as a,L as e,Q as o}from"./chunk-TNPYSMCI.js";var p=(()=>{let t=class t{constructor(r){this._http=r}getData(r){return this._http.get(r)}};t.\u0275fac=function(n){return new(n||t)(o(a))},t.\u0275prov=e({token:t,factory:t.\u0275fac,providedIn:"root"});let i=t;return i})();export{p as a};
